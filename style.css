@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body{
+    font-family: 'Coming Soon';
+}
+
+table{
+    border: solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid grey;
+    font-weight: bold;
+    background-color: #76e5fc;
+}
+
+th{
+    background-color: #0f52ba;
+    color: white;
+}
+
+td, th{
+    text-align: center;
+    width: 30px;
+    height: 35px;
+}
+
+table{
+    width: 250px;
+}
+
+#month{
+    width: 400px;
+}
+
+#mo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mo-container button{
+    border: 0px;
+    background-color: transparent;
+}
+
+#date{
+    border: 0px;
+    border-right: 1px solid black;
+    width: 216px;
+    padding: 3%;
+    background-color: #89cff0;
+}
+
+#date::placeholder{
+    font-family: 'Coming Soon';
+    font-weight: bold;
+}
+
+#date-container{
+    border: 3px solid black;
+    width: 246px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3a7ca5;
+    margin-bottom: 2px;
+}
+
+#date-container button{
+    border: 0px;
+    background-color: transparent;
+    width: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}
